@@ -78,8 +78,6 @@ class Embedder(Cog):
             color=Color(int(colorcode, 0)),
         )
 
-        embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar_url)
-
         if len(ctx.message.attachments) == 1:
             try:
                 imgur = Imgur("0f032be3851849a")
