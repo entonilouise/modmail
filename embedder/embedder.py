@@ -76,7 +76,6 @@ class Embedder(Cog):
             title=title,
             description=message,
             color=Color(int(colorcode, 0)),
-            timestamp=datetime.utcnow(),
         )
 
         embed.set_author(name=ctx.author.display_name, icon_url=ctx.author.avatar_url)
